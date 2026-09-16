@@ -2,7 +2,7 @@
  * Exercise 1 — HelloYou
  *
  * TODO: Print three separate lines:
- *   1. Your full name
+ *   1. Your name
  *   2. Your grade
  *   3. One sentence about yourself
  *
@@ -10,8 +10,8 @@
  */
 public class HelloYou {
     public static void main(String[] args) {
-
-        // Your code here
-
+        System.out.println("Steven");
+        System.out.println("11th");
+        System.out.println("I am a student in AP Computer Science");
     }
 }
