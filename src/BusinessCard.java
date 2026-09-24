@@ -17,8 +17,7 @@
  */
 public class BusinessCard {
     public static void main(String[] args) {
-
-        // One println. Just one.
+        System.out.println("+--------------------------------+\n|\tSteven Shamah\t\t|\n|\tStudent Developer\t|\n|\t\t\t\t|\n|github.com/steven-shamah\t|\n+--------------------------------+ ");
 
     }
 }
