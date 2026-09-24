@@ -14,9 +14,20 @@
 public class AboutMe {
     public static void main(String[] args) {
 
-        // Declare your variables here
+        final int BIRTH_YEAR = 2010;
+        int favoriteNumber = 2;
+        double favoriteDecimal = 2.22;
+        boolean likesJava = true; 
+        char favoriteInitial = 'S'; 
+        String name = "STEVEN_SHAMAH"; 
 
-        // Print them with labels here
+        System.out.println("Name: " + name);
+        System.out.println("Birth year: " + BIRTH_YEAR);
+        System.out.println("Favorite number: " + favoriteNumber);
+        System.out.println("Favorite decimal: " + favoriteDecimal);
+        System.out.println("Likes Java: " + likesJava);
+        System.out.println("Favorite initial: " + favoriteInitial);
+// Print them with labels here
 
     }
 }
