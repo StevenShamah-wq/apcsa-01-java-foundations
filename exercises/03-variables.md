@@ -6,30 +6,30 @@ For each value, pick the best Java type and justify it in **one sentence.** The 
 
 | # | Value to store | Type | Why |
 |---|---|---|---|
-| 1 | A student's age | | |
-| 2 | The price of a coffee | | |
-| 3 | Whether a student is enrolled | | |
-| 4 | A student's middle initial | | |
-| 5 | A phone number | | |
-| 6 | The population of New York City | | |
-| 7 | A test score out of 100 | | |
-| 8 | A GPA | | |
-| 9 | Whether it is currently raining | | |
-| 10 | A student ID like `0074512` | | |
+| 1 | A student's age | int | because its a whole number|
+| 2 | The price of a coffee | double| prices includes decimals to the nearest hundreths|
+| 3 | Whether a student is enrolled | boolean | because its true or false|
+| 4 | A student's middle initial | char | because its a single character |
+| 5 | A phone number | String | there are characters besides numbers|
+| 6 | The population of New York City | int | its a whole number |
+| 7 | A test score out of 100 | int | a grade is a whole number |
+| 8 | A GPA | double | a GPA has decimals|
+| 9 | Whether it is currently raining | boolean | its true or false |
+| 10 | A student ID like `0074512` | String | there are quotations around the numbers|
 
 ### Traps to think carefully about
 
 **#5 — Phone number.** It's made of digits, so `int` feels right. Why is it wrong?
 
-[your answer]
+A phone number isnt only numbers. There are characters like dashes as well making it a string.
 
 **#10 — Student ID.** Same question, plus one more problem `int` would cause.
 
-[your answer]
+Int is for something mathamatically, while string can be used for any text. 
 
 **#6 — Population of NYC.** About 8.3 million. Does that fit in an `int`? What about the population of Earth?
 
-[your answer]
+No 8.3 million is not a whole number therefore it is not an int it must be a double. Same for the population of the earth. 
 
 ---
 
